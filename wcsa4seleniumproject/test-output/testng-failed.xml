@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNg.ActitimeTestNGLogin">
+      <class name="takesScreenShotDynamic.ActiTimeTestNgLogin">
         <methods>
-          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="setUp"/>
+          <include name="homePage"/>
+          <include name="loginPage"/>
         </methods>
-      </class> <!-- TestNg.ActitimeTestNGLogin -->
+      </class> <!-- takesScreenShotDynamic.ActiTimeTestNgLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
